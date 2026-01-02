@@ -1,6 +1,7 @@
 # ai_agent
 
-Template for deploying langchain based projects. 
+This is meant to be a template for creating multi-agent workloads in python leveraging langchain/graph, fastapi, openai, and open-webui as a chat interface. The intent
+is to get a working scaffolding setup that I can build upon to make personal and professional assistants. The API should be openai compatible to support any client/front end.
 
 ## Requirements
 
@@ -27,8 +28,10 @@ Template for deploying langchain based projects.
 
 ## Running the Project
 
-Use the provided `run.sh` script to start the application, replacing <user_input> with your prompt.
+Use the provided `run.sh` script to start the application. 
 
 ```bash
-./run.sh "<user_input>"
+./run.sh 
 ```
+
+Integrate into your interface/client that supports openai spec.
